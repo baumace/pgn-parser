@@ -6,12 +6,14 @@ namespace PGN_Parser.Helpers
     {
         public bool IsValidInputFile(string file)
         {
-            throw new NotImplementedException();
+            // TODO
+            return true;
         }
 
         public bool IsValidOutputDirectory(string directory)
         {
-            throw new NotImplementedException();
+            // TODO
+            return true;
         }
     }
 }

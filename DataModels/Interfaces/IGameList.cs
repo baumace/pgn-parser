@@ -12,6 +12,6 @@
         /// Gets all games from the collection.
         /// </summary>
         /// <param name="game"></param>
-        public List<IGame> GetGames(IGame game);
+        public List<IGame> GetGames();
     }
 }

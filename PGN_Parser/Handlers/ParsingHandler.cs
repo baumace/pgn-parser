@@ -12,6 +12,9 @@ namespace PGN_Parser.Handlers
         private FileGeneratorService _generator;
         #endregion Private Variables
 
+        /// <summary>
+        /// Constructor.
+        /// </summary>
         public ParsingHandler()
         {
             _validationHelper = new ValidationHelper();
@@ -19,10 +22,20 @@ namespace PGN_Parser.Handlers
             _generator = new FileGeneratorService();
         }
 
+        /// <summary>
+        /// Handles parsing process from PGN input file to generated
+        /// PGN output files.
+        /// </summary>
+        /// <param name="inputFile"></param>
+        /// <param name="outputDirectory"></param>
+        /// <returns></returns>
         public bool Handle(string inputFile, string outputDirectory)
         {
             _validationHelper.IsValidInputFile(inputFile);
             _validationHelper.IsValidOutputDirectory(outputDirectory);
+
+            var gameList = _consumer.Consume(inputFile);
+            Console.WriteLine($"{gameList} games discovered...");
 
             return false;
         }
