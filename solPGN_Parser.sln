@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGN_Parser", "PGN_Parser\PGN_Parser.csproj", "{99D72AD4-104E-47EC-B7B1-C14CC0F88C11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGN_Parser.DataModels", "DataModels\PGN_Parser.DataModels.csproj", "{0781E682-8E95-418C-B6F4-91176D3C71A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{99D72AD4-104E-47EC-B7B1-C14CC0F88C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D72AD4-104E-47EC-B7B1-C14CC0F88C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D72AD4-104E-47EC-B7B1-C14CC0F88C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0781E682-8E95-418C-B6F4-91176D3C71A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0781E682-8E95-418C-B6F4-91176D3C71A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0781E682-8E95-418C-B6F4-91176D3C71A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0781E682-8E95-418C-B6F4-91176D3C71A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

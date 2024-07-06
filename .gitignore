@@ -1,4 +1,6 @@
-.vs
-/obj
-/bin
-/debug
+.vs/
+obj/
+bin/
+debug/
+Data/
+Output/
