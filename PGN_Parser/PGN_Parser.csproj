@@ -8,11 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Output\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DataModels\PGN_Parser.DataModels.csproj" />
   </ItemGroup>
 
