@@ -35,9 +35,11 @@ namespace PGN_Parser.Handlers
             _validationHelper.IsValidOutputDirectory(outputDirectory);
 
             var gameList = _consumer.Consume(inputFile);
-            Console.WriteLine($"{gameList} games discovered...");
+            Console.WriteLine($"{gameList.GetGames().Count} games discovered...");
 
-            return false;
+            _generator.Generate(gameList, outputDirectory);
+
+            return true;
         }
     }
 }
