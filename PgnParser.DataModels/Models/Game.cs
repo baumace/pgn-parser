@@ -1,7 +1,7 @@
-﻿using PGN_Parser.DataModels.Interfaces;
-using System.Xml.Schema;
+﻿using System.Xml.Schema;
+using PgnParser.DataModels.Interfaces;
 
-namespace PGN_Parser.DataModels.Models
+namespace PgnParser.DataModels.Models
 {
     public class Game : IGame
     {

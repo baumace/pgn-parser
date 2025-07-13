@@ -1,4 +1,4 @@
-﻿namespace PGN_Parser.DataModels.Interfaces
+﻿namespace PgnParser.DataModels.Interfaces
 {
     public interface IGame
     {

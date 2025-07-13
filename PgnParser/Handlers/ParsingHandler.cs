@@ -1,8 +1,8 @@
-﻿using PGN_Parser.Helpers;
-using PGN_Parser.Helpers.Interfaces;
-using PGN_Parser.Services;
+﻿using PgnParser.Helpers;
+using PgnParser.Helpers.Interfaces;
+using PgnParser.Services;
 
-namespace PGN_Parser.Handlers
+namespace PgnParser.Handlers
 {
     public class ParsingHandler
     {

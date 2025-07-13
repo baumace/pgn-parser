@@ -1,6 +1,6 @@
-﻿using PGN_Parser.Handlers;
+﻿using PgnParser.Handlers;
 
-namespace PGN_Parser
+namespace PgnParser
 {
     public class Program
     {

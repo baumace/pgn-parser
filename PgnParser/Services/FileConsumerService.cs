@@ -1,8 +1,8 @@
-﻿using PGN_Parser.DataModels.Interfaces;
-using PGN_Parser.DataModels.Models;
+﻿using PgnParser.DataModels.Interfaces;
+using PgnParser.DataModels.Models;
 using System.Text;
 
-namespace PGN_Parser.Services
+namespace PgnParser.Services
 {
     public class FileConsumerService
     {

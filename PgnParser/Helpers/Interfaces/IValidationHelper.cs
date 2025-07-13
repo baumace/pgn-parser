@@ -1,4 +1,4 @@
-﻿namespace PGN_Parser.Helpers.Interfaces
+﻿namespace PgnParser.Helpers.Interfaces
 {
     public interface IValidationHelper
     {
