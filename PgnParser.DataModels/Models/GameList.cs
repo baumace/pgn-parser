@@ -1,6 +1,6 @@
-﻿using PGN_Parser.DataModels.Interfaces;
+﻿using PgnParser.DataModels.Interfaces;
 
-namespace PGN_Parser.DataModels.Models
+namespace PgnParser.DataModels.Models
 {
     public class GameList : IGameList
     {

@@ -1,6 +1,6 @@
-﻿using PGN_Parser.Handlers;
+﻿using PgnParser.Services.Handlers;
 
-namespace PGN_Parser
+namespace PgnParser
 {
     public class Program
     {
@@ -9,8 +9,8 @@ namespace PGN_Parser
             var inputFile = args[0];
             var outputDirectory = args[1];
 
-            var _handler = new ParsingHandler();
-            var successful = _handler.Handle(inputFile, outputDirectory);
+            var handler = new ParsingHandler();
+            var successful = handler.Handle(inputFile, outputDirectory);
             string message = successful ? "Files handled successfully..." : "File handling failed...";
             Console.WriteLine(message);
         }
