@@ -1,6 +1,6 @@
-﻿using PgnParser.Helpers.Interfaces;
+﻿using PgnParser.Services.Helpers.Interfaces;
 
-namespace PgnParser.Helpers
+namespace PgnParser.Services.Helpers
 {
     public class ValidationHelper : IValidationHelper
     {

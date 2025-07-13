@@ -1,6 +1,6 @@
 ﻿using PgnParser.DataModels.Interfaces;
 
-namespace PgnParser.Services
+namespace PgnParser.Services.Services
 {
     public class FileGeneratorService
     {
