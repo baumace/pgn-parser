@@ -4,9 +4,9 @@
     {
         /// <summary> 
         /// Compiles the information of this
-        /// int PGN format.
+        /// into PGN format.
         /// </summary>
         /// <returns></returns>
-        public string ToPGNFormat();
+        public string ToPgnFormat();
     }
 }

@@ -5,20 +5,18 @@ namespace PgnParser.DataModels.Models
 {
     public class Game : IGame
     {
-        #region Private Variables
-        private string _tagPairs {  get; set; }
-        private string _movetext { get; set; }
-        #endregion Private Variables
+        private string _tags {  get; }
+        private string _moves { get; }
 
-        public Game(string tagPairs, string movetext)
+        public Game(string tags, string moves)
         {
-            _tagPairs = tagPairs;
-            _movetext = movetext;
+            _tags = tags;
+            _moves = moves;
         }
 
-        public string ToPGNFormat()
+        public string ToPgnFormat()
         {
-            return $"{_tagPairs}{Environment.NewLine}{Environment.NewLine}{_movetext}{Environment.NewLine}{Environment.NewLine}";
+            return $"{_tags}{Environment.NewLine}{Environment.NewLine}{_moves}{Environment.NewLine}{Environment.NewLine}";
         }
     }
 }
